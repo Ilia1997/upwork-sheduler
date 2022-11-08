@@ -1,8 +1,13 @@
 {
   "name": "scheduler",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "node app",
+  "main": "app.js",
+  "start": "node app.js",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,5 +15,6 @@
   "license": "ISC",
   "dependencies": {
     "node-cron": "^3.0.2"
-  }
+  },
+  "homepage": ""
 }
